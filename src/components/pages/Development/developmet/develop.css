@@ -11,69 +11,70 @@
 }
 
 .devimg1{
-    width: 560px;
+    width: 45%;
     position: absolute;
 }
 
 
 .box-text11{
-    max-width: 600px;
+    max-width: 47%;
     text-align: center;
-    margin:70px 0px 70px 32%;
-   margin-top: 70px;
-   padding-bottom: 70px;
+    margin:8% 0 8% 32%;
+   
+   
     position: absolute;
     /* margin-left: 32%; */
     
     background-color: rgb(255, 255, 255);
     border: 1px 0 1px 1px solid gray;
-    padding: 40px 80px;
+    padding: 4% 8%;
     box-shadow:  2px 0.5px 6px 0.5px rgb(190, 188, 188);
 }
 
 .head-main11 {
+  
     height: 87px;
-    left: 70px;
+  margin-left: 14%;
     position: relative;
-    padding-bottom: 10px;
+    padding-bottom: 2%;
     
     
   }
   
 .head411 {
     color: #f0f0f0;
-    font-size: 64px;
+    font-size: 4em;
     font-weight: 700;
-    left: 0;
+    left: 6%;
     letter-spacing: 0;
-    line-height: 60px;
+    line-height: 6%;
     position: absolute;
-    top: 0;
+    top: 1%;
     white-space: nowrap;
-    /* padding-bottom: 900px; */
+    
     
   }
   
 .head412 {
     color: #143274;
     
-    font-size: 48px;
+    font-size: 3em;
     font-weight: 700;
-    left: 60px;
+    left: 14%;
     letter-spacing: 0;
-    line-height: 60px;
+    line-height: 6%;
     position: absolute;
-    top: 10px;
+    top: 10%;
     white-space: nowrap;
   }
 
   .head-main11::after{
     content: "";
     position: absolute;
-    bottom: 20px;
+    bottom: 50px;
     height: 3px;
-    width: 80%;
-    left: -10px;
+    width: 65%;
+    left:2%;
     background-color: #CA256D;
     transition: 0.5s;
     transition-timing-function: ease-in-out;
@@ -86,8 +87,8 @@
 }
 
 .create1{
-    font-size: 16px;
-    max-width: 900px;
+    font-size: 100%;
+    max-width: 90%;
     
   }
   @media screen and (max-width:1000px) {
@@ -107,14 +108,14 @@
        
         position: absolute;
         margin: 0px;
-        max-width: 500px;       
+        max-width: 50%;       
     }
     .devimg1{
-        width: 470px;
+        width: 47%;
     }
  
     .headd1{
-        width: 400px;
+        width: 40%;
     }
    
 }
@@ -125,7 +126,7 @@
        
         position: absolute;
         margin: 0px;
-        max-width: 500px;
+        max-width: 50%;
         padding: 40px 35px;
    }
  
@@ -136,12 +137,12 @@
     margin-left: 50px;
    }
    .head412{
-     font-size: 28px;
+     font-size: 1.75em;
    font-weight: 700;
    
    }
    .head411{
-     font-size: 44px;
+     font-size: 2.75em;
    font-weight: 700;
    }
 }
@@ -150,12 +151,12 @@
       margin-left: 0px;
      }
      .head412{
-       font-size: 24px;
+       font-size: 1.5em;
      font-weight: 700;
      
      }
      .head411{
-       font-size: 40px;
+       font-size: 2.5em;
      font-weight: 700;
      }
 
