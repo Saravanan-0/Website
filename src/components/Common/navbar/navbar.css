@@ -1,0 +1,268 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 15px 10px;
+  
+  background-color: #ffffff;
+  border-bottom: 1px solid #818181;
+  position:fixed;
+  width: 100%;
+  top: 0;
+  
+  z-index: 100;
+ 
+  
+}
+
+
+.nav-btn {
+  display: none;
+  border: none;
+  background: linear-gradient(90deg, rgba(20,50,116,1) 0%, rgba(199,50,116,1) 100%);
+  background-color:linear-gradient(90deg, rgba(20,50,116,1) 0%, rgba(199,50,116,1) 100%);
+  font-size: 16px;
+  font-weight: 200;
+  height: 40px;
+  width: 50px;
+  border-radius: 8px;
+  margin: 0 10px ;
+ 
+  transition: .4s;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+  cursor:pointer;
+}
+
+
+.nrml-nav{
+  
+  list-style: none;
+  padding: 0px 20px;
+  
+}
+
+::marker{
+  content: none;
+}
+
+.nrml-nav a{
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  border-bottom: 2px solid white;
+  
+}
+
+
+.nrml-nav :hover {
+  background: -webkit-linear-gradient(16deg, #ca256d 0%, #143274 100%);
+  background-clip: content-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(90deg, rgba(20,50,116,1) 0%, rgba(199,50,116,1) 100%);
+  border-image-slice: 1;
+  width:100%;
+}
+
+.logo {
+ width: 100px;
+ padding-top: 10px;
+
+}
+
+
+.contact-button button {
+  padding: 14px 28px;
+  border: none;
+  outline: none;
+  position: relative;
+  z-index: 1;
+  border-radius: 1px;
+  
+  background: black;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+}
+.contact-button button::before {
+  content: "";
+  position: absolute;
+  left: 2.5px;
+  right: 2.5px;
+  top: 2.5px;
+  bottom: 2.5px;
+  /* border-radius: 4px; */
+  background-color: rgb(255, 255, 255);
+  z-index: -1;
+  transition: 200ms;
+ 
+}
+
+
+
+.contact-button button:hover::before {
+  
+  top: 2.5px;
+  right: 2.5px;
+  bottom: 2.5px;
+  left: 2.5px;
+  
+}
+
+.contact-button button:hover{
+   background: linear-gradient(to right, #CA256D 0%, #143274 100%);
+   -webkit-box-shadow: 0px 2px 3px 3px rgba(0,0,0,0.47); 
+   box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.47);
+}
+
+
+.buttonword{
+   color: #020202;
+   font-size: 18px;
+   font-weight: 300;
+}
+
+@media (max-width:900px) {
+
+  .nav-btn {
+      display: block;
+      margin-right: 200px;
+      
+     
+  }
+.logo{
+  float: right;
+}
+  .navbar {
+    
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      /* background-color: rgb(241, 98, 98); */
+      background: whitesmoke;
+      color: black;
+      height: 350px;
+      width: 25%;
+      right: 250px;
+      padding-top: 10px;
+      margin-top: 20px;
+      border-radius: 20px;
+  
+  }
+
+  .navbar li {
+      padding: 20px;
+     
+  }
+
+  .navbar.show {
+      display: flex;
+  }
+
+}
+
+@media screen and (max-width:500px) {
+  .nav-btn{
+    margin-right: 10px;
+    margin-left: -30px;
+    
+  }
+  .logo{
+    margin-left: -40px;
+  }
+
+  .contact-button button {
+    padding: 14px 28px;
+    border: none;
+    outline: none;
+    position: relative;
+    z-index: 1;
+    border-radius: 1px;
+    margin-left: -30px;
+    background: black;
+    cursor: pointer;
+   
+  }
+
+  .buttonword{
+    color: #020202;
+    font-size: 14px;
+    font-weight: 200;
+  
+ }
+
+ .header{
+  padding-left: 0px;
+ }
+ .nrml-nav{
+  padding: 0px 0px;
+ }
+}
+
+/* navbar.css */
+/* .navbar {
+  list-style-type: none;
+  padding: 0;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+
+
+.navbar li {
+  float: left;
+}
+
+.navbar a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 0;
+  text-decoration: none;
+  transition: 0.3s, color 0.3s; /* Added transition properties */
+ */
+
+
+.showExp{
+  /* margin: 0px 10px; */
+  /* margin-top: 10px;
+  margin-bottom: 10px; */
+  font-size: 24px;
+}
+
+.showExp a {
+  text-decoration: none;
+  color: #f9f0f5;
+}
+
+.showExp a:hover {
+  text-decoration: underline;
+}
+
+.showExperience{
+  display: none;
+}
+
+/* .dev-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+ 
+} */
+
+.devnav11 {
+  display: block;
+  position: absolute;
+ 
+}
+
+

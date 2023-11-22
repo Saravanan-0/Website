@@ -1,0 +1,113 @@
+.Our-Process14 {
+  background-color: #f5f5f5;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.process-heading14 {
+  color: #B4B4B4;
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.process-card14 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.process114,
+.process214,
+.process314,
+.process414,
+.process514,
+.process614 {
+  background-color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 60px;
+  margin: 40px;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #143274;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.6s, box-shadow 0.3s, opacity 0.3s;
+}
+
+
+
+.process-head14 {
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px; /* Move the head part up */
+  scale: 1; /* Initial scale */
+  filter: grayscale(90%);
+  transition: margin-top 0.9s ease-in-out, scale 0.9s ease-in-out; /* Smooth transition for margin-top and scale */
+}
+
+.process114:hover .process-head14,
+.process214:hover .process-head14,
+.process314:hover .process-head14,
+.process414:hover .process-head14,
+.process514:hover .process-head14,
+.process614:hover .process-head14 {
+  margin-top: -50px;
+  scale: 0.7; 
+  transform: translateY(0);
+  filter: none;/* Reset margin-top on hover */
+}
+
+
+.fancy7{
+  padding-bottom: 25px;
+  font-size: 16px;
+
+}
+
+.process-content14 {
+  opacity: 0;
+  position: absolute;
+  font-weight: lighter;
+  color: black;
+  max-width: 400px;
+  text-align: center;
+  padding: 0 20px;
+  font-size: 14px;
+  top: 100%;
+  transform: translateY(50%);
+  transition: opacity 0.9s, top 0.9s;
+}
+
+@keyframes moveInside {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.process114:hover .process-content14,
+.process214:hover .process-content14,
+.process314:hover .process-content14,
+.process414:hover .process-content14,
+.process514:hover .process-content14,
+.process614:hover .process-content14 {
+  animation: moveInside 0.9s ease-in-out forwards;
+  opacity: 1;
+  cursor: pointer;
+  z-index: 1;
+  top: 70%;
+  margin-top: -20px;
+  transform: translateY(0);
+}

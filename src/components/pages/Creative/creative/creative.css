@@ -1,0 +1,162 @@
+.box19{
+    display: flex;
+    margin-top: 85px;
+}
+.development{
+    height: vh;
+    margin-top: 0vh;
+}
+
+.devimg9{
+    width: 560px;
+    position: absolute;
+}
+
+
+.box-text9{
+    max-width: 600px;
+    text-align: center;
+    margin:90px 0px 70px 32%;
+    
+    padding: 70px;
+    position: absolute;
+    
+    background-color: rgb(255, 255, 255);
+    border: 1px 0 1px 1px solid gray;
+    padding: 40px 80px;
+    box-shadow: 2px 0.5px 6px 0.5px rgb(190, 188, 188);
+}
+
+.head-main9 {
+    height: 87px;
+    padding-left: 0px;
+    position: relative;
+    padding-bottom: 10px;
+    
+    
+  }
+  
+.head491 {
+    color: #f0f0f0;
+    font-size: 64px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 60px;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+    /* padding-bottom: 900px; */
+    
+  }
+  
+.head492 {
+    color: #143274;
+    
+    font-size: 48px;
+    font-weight: 700;
+    left: 85px;
+    letter-spacing: 0;
+    line-height: 60px;
+    position: absolute;
+    top: 10px;
+    white-space: nowrap;
+  }
+
+  .head-main9::after{
+    content: "";
+    position: absolute;
+    bottom: 20px;
+    height: 3px;
+    width: 100%;
+    left: 0%;
+    background-color: #CA256D;
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+    transform: scaleX(0);
+    transform-origin:center;
+}
+
+.head-main9:hover::after{
+    transform: scaleX(1);
+}
+
+.create9{
+    font-size: 16px;
+    max-width: 900px;
+    
+  }
+  @media screen and (max-width:1000px) {
+    .head492{
+      font-size: 38px;
+    font-weight: 700;
+
+    }
+    .head491{
+      font-size: 54px;
+    font-weight: 700;
+    }
+  }
+
+  @media screen and (max-width:900px){
+    .box-text9{
+       
+        position: absolute;
+        margin: 0px;
+        max-width: 500px;       
+    }
+    .devimg9{
+        width: 470px;
+    }
+ 
+    .headd9{
+        width: 400px;
+    }
+   
+}
+ 
+@media screen and (max-width:600px) {
+ 
+    .box-text9{
+       
+        position: absolute;
+        margin: 0px;
+        max-width: 500px;
+        padding: 40px 35px;
+   }
+ 
+.devimg9{
+    display: none;
+}
+.head-main9{
+    margin-left: 50px;
+   }
+   .head492{
+     font-size: 28px;
+   font-weight: 700;
+   
+   }
+   .head491{
+     font-size: 44px;
+   font-weight: 700;
+   }
+}
+@media screen and (max-width:500px) {
+    .head-main9{
+      margin-left: 0px;
+     }
+     .head492{
+       font-size: 24px;
+     font-weight: 700;
+     
+     }
+     .head491{
+       font-size: 40px;
+     font-weight: 700;
+     }
+
+     .development{
+      height: 0;
+     }
+    
+    }

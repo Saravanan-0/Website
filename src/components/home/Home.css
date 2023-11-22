@@ -1,0 +1,143 @@
+.Home1{
+  margin-top: 85px;
+    width: 100%;
+    min-height: 90vh;
+    background-image: url("./assets/1.png");
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 0 0 0 200px;
+    display: flex;
+  align-items: center;
+ justify-content: space-between;
+  /* padding: 0 40px; */
+ 
+ }
+ 
+ .home1-content{
+   display: flex;
+   justify-content: space-between;
+   padding-left: 90px;
+   flex-direction: column;
+   margin-top: -30px;
+ }
+ .home1-content h1{
+   font-size: 48px;
+   color: white;
+   font-weight: 700;
+   padding-bottom: 30px;
+ 
+ }
+ 
+ .home1-content p{
+   font-size: 18px;
+   color: white;
+   font-weight: 300;
+   max-width: 550px;
+   line-height: 1.7;
+   padding-bottom: 30px;
+  
+ 
+ }
+ 
+ /* .home-btn{
+  
+   
+ 
+ } */
+ 
+ .home-btn1{
+   margin-right: 20px;
+ }
+ .home-btn1,.home-btn2{
+   padding: 7px 14px;
+   background-color: transparent;
+   border: 2px solid white;
+   color: white;
+   font-size: 18px;
+   border-radius: 4px;
+   font-weight: 300;
+ }
+ 
+ .home-btn1:hover,.home-btn2:hover{
+   background-color: white;
+   border: 2px solid #CA256D ;
+   color: #CA256D;
+ }
+ 
+ 
+ .img333{
+   width: 200px;
+ }
+ .img111{
+   margin-top: 100px;
+   margin-right: 50px;
+ }
+ .img222{
+   margin-bottom: 50px;
+ }
+ 
+ .home1-img{
+ 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ }
+ 
+ @media screen and (max-width:900px) {
+
+  .Home1{
+    margin-top: 80px;
+  }
+
+  .home1-content h1{
+    font-size: 30px;
+
+  }
+
+  .home1-content{
+    font-size: 16px;
+  }
+  
+
+  .home-btn{
+    display: flex;
+    padding-left: 40px;
+  }
+
+  .home-btn1,.home-btn2{
+    padding: 7px 14px;
+    background-color: transparent;
+    border: 1.5px solid white;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    font-weight: 400;
+  }
+ }
+
+ @media screen and (max-width:500px) {
+
+  .img111,
+  .img222,
+  .img333{
+    display: none;
+  }
+
+  .Home1{
+     min-height: 60vh;
+  }
+  
+  .home1-content{
+    padding-left: 40px;
+  }
+  
+  .home1-content p{
+    font-size: 16px;
+  }
+
+  .home-btn{
+    padding-left: 3px;
+  }
+  
+ }

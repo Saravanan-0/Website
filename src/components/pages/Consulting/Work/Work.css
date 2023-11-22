@@ -1,0 +1,150 @@
+
+.work412 {
+  
+  background-color: #f5f5f5;
+  padding-top: 70px;
+  text-align: center;
+}
+
+.work-heading4 {
+  font-size: 24px;
+  color: #B4B4B4;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.work-card4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+
+.work-head4{
+  padding: 10px 0;
+  margin-top: 10px;
+}
+.work-head4 h2{
+  
+  font-weight: 500;
+  color: #143274;
+  font-size: 18px;
+}
+
+.work-head41{
+  padding: 10px 0;
+  margin-top: 22px;
+}
+.work-head41 h2{
+  
+  font-weight: 500;
+  color: #143274;
+  font-size: 18px;
+}
+
+.work-head42{
+  padding: 10px 0;
+  margin-top: 15px;
+}
+.work-head42 h2{
+  
+  font-weight: 500;
+  color: #143274;
+  font-size: 18px;
+}
+
+
+.work14,
+.work24,
+.work34 {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  text-align: center; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.3s;
+  position: relative;
+  overflow: hidden; /* Hides the content that overflows the card */
+
+
+}
+
+.work-content4{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.work-content4 p1{
+  color: #fff;
+  margin-top:   -30px;
+  padding: 10px 10px;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  z-index: 2;
+}
+
+.work-content4 p2{
+  color: #fff;
+  margin-top:   20px;
+  padding: 10px 10px;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  z-index: 2;
+
+  
+}
+
+.work-content4 p3{
+  color: #fff;
+  margin-top:   70px;
+  padding: 10px 10px;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  z-index: 2;
+
+  
+}
+
+.work-content4 p4{
+  color: #fff;
+  margin-top:   95px;
+  padding: 10px 10px;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  z-index: 2;
+
+  
+}
+
+
+.head-icon5{
+
+  position: relative;
+  top: 12px;
+}
+.head-icon6{
+  position: relative;
+  top: 20px;
+}
+
+.head-icon7{
+  position: relative;
+  top: 32px;
+}
+
+.head-icon8{
+  position: relative;
+  top: 50px;
+}
+
+
+

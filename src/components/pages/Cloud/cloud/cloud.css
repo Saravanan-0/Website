@@ -1,0 +1,169 @@
+
+
+.cloud{
+    /* margin-top: 85px; */
+    height: 80vh;
+    
+    background-color: #f5f5f5;
+    
+}
+.box177{
+    display: flex;
+    margin-top: 85px;
+    background-color: #f5f5f5;
+   
+}
+.devimg7{
+    max-width: 560px;
+    position: absolute;
+    
+}
+
+
+.box-text7{
+    max-width: 600px;
+    text-align: center;
+    margin:70px 0px 70px 32% ;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    padding: 40px 80px;
+    /* border: 1px 0 1px 1px solid black; */
+    border-radius: 1px;
+    box-shadow:  1px 0.5px 6px 0px rgb(190, 188, 188);
+}
+
+.head-main7 {
+    height: 87px;
+    left: 130px;
+    position: relative;
+    padding-bottom: 10px;
+    
+    
+  }
+  
+.head471 {
+    color: #f0f0f0;
+    font-size: 70px;
+    font-weight: 700;
+    left: 50px;
+    letter-spacing: 0;
+    line-height: 60px;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+    /* padding-bottom: 900px; */
+    
+  }
+  
+.head472 {
+    color: #143274;
+    
+    font-size: 48px;
+    font-weight: 700;
+    left: 85px;
+    letter-spacing: 0;
+    line-height: 60px;
+    position: absolute;
+    top: 10px;
+    white-space: nowrap;
+  }
+
+  .head-main7::after{
+    content: "";
+    position: absolute;
+    bottom: 20px;
+    height: 3px;
+    width: 40%;
+    left: 6%;
+    background-color: #CA256D;
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+    transform: scaleX(0);
+    transform-origin:center;
+}
+
+.head-main7:hover::after{
+    transform: scaleX(1);
+}
+
+.create7{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+}
+@media screen and (max-width:1000px) {
+    .head472{
+      font-size: 38px;
+    font-weight: 700;
+
+    }
+    .head471{
+      font-size: 54px;
+    font-weight: 700;
+    }
+  }
+
+
+@media screen and (max-width:900px){
+    .box-text7{
+       
+        position: absolute;
+        margin: 0px;
+        max-width: 500px;       
+    }
+    .devimg7{
+        width: 470px;
+    }
+ 
+    .headd7{
+        width: 200px;
+    }
+   
+}
+ 
+@media screen and (max-width:600px) {
+ 
+    .box-text7{
+       
+        position: absolute;
+        margin: 0px;
+        max-width: 500px;
+        padding: 40px 35px;
+   }
+ 
+.devimg7{
+    display: none;
+}
+.head-main7{
+    margin-left: 50px;
+   }
+   .head472{
+     font-size: 28px;
+   font-weight: 700;
+   
+   }
+   .head471{
+     font-size: 44px;
+   font-weight: 700;
+   }
+}
+@media screen and (max-width:500px) {
+    .head-main7{
+      margin-left: -50px;
+     }
+     .head472{
+       font-size: 30px;
+     font-weight: 700;
+     
+     }
+     .head471{
+       font-size: 50px;
+     font-weight: 700;
+     }
+
+     .cloud{
+      height: 50vh;
+     }
+    
+
+  }

@@ -1,0 +1,117 @@
+
+.work344 {
+  background-color: #f5f5f5;
+  padding-top: 70px;
+  text-align: center;
+}
+
+.work-heading34 {
+  font-size: 24px;
+  color: #B4B4B4;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.work-card34 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.work-head34{
+  padding: 10px 0;
+  margin-top: 10px;
+}
+.work-head34 h2{
+  
+  font-weight: 500;
+  color: #143274;
+  font-size: 18px;
+}
+.work-head345{
+  padding: 10px 0;
+  margin-top: 20px;
+}
+.work-head345 h2{
+  
+  font-weight: 500;
+  color: #143274;
+  font-size: 18px;
+}
+
+.work134,
+.work234,
+.work334 {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  text-align: center; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.3s;
+  position: relative;
+  overflow: hidden; /* Hides the content that overflows the card */
+
+
+}
+
+.work-content34{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img134{
+  position: absolute;
+  z-index: 0;
+  top:35px
+  }
+
+.work-content34 p1{
+  color: #fff;
+  margin-top: 50px;
+  padding: 10px 10px;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  z-index: 2;
+}
+.work-content34 p2{
+  color: #fff;
+  margin-top: 35px;
+  padding: 10px 10px;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  z-index: 2;
+}
+.work-content34 p3{
+  color: #fff;
+  margin-top: 10px;
+  padding: 10px 10px;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  z-index: 2;
+}
+.work-content34 p4{
+  color: #fff;
+  margin-top: 10px;
+  padding: 10px 10px;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  z-index: 2;
+}
+
+.img332{
+  top:36px
+}
+.img434,
+.img234{
+  top:60px
+}
+
+
+

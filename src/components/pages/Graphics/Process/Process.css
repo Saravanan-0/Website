@@ -1,0 +1,111 @@
+.Our-Process62 {
+  background-color: #f5f5f5;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.process-heading62 {
+  color: #B4B4B4;
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.process-card62 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.process162,
+.process262,
+.process362,
+.process462,
+.process562,
+.process662 {
+  background-color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 60px;
+  margin: 40px;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #143274;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.6s, box-shadow 0.3s, opacity 0.3s;
+}
+
+
+
+.process-head62 {
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px; /* Move the head part up */
+  scale: 1;
+  filter: grayscale(90%); /* Initial scale */
+  transition: margin-top 0.9s ease-in-out, scale 0.9s ease-in-out; /* Smooth transition for margin-top and scale */
+}
+
+.process162:hover .process-head62,
+.process262:hover .process-head62,
+.process362:hover .process-head62,
+.process462:hover .process-head62,
+.process562:hover .process-head62,
+.process662:hover .process-head62 {
+  margin-top: -50px;
+  scale: 0.7; 
+  transform: translateY(0);
+  filter: none;/* Reset margin-top on hover */
+}
+.fancy10{
+  font-size: 16px;
+  padding-bottom: 25px;
+  
+}
+
+.process-content62 {
+  opacity: 0;
+  position: absolute;
+  font-weight: normal;
+  color: black;
+  max-width: 300px;
+  text-align: center;
+  padding: 0px 20px;
+  font-size: 14px;
+  top: 100%;
+  transform: translateY(50%);
+  transition: opacity 0.9s, top 0.9s;
+}
+
+@keyframes moveInside {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.process162:hover .process-content62,
+.process262:hover .process-content62,
+.process362:hover .process-content62,
+.process462:hover .process-content62,
+.process562:hover .process-content62,
+.process662:hover .process-content62 {
+  animation: moveInside 0.9s ease-in-out forwards;
+  opacity: 1;
+  cursor: pointer;
+  z-index: 1;
+  top: 70%;
+  margin-top: -20px;
+  transform: translateY(0);
+}

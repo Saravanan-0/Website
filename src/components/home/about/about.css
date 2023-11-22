@@ -1,0 +1,183 @@
+.cont{
+   
+   position: absolute; 
+   font-size: 100px;
+   font-weight: 700;
+   opacity: 7%;
+   top: -31%; 
+   left: 37%; 
+   bottom: 0; 
+   z-index: -1; 
+   
+}
+.heading{
+   position: relative;
+   margin-top: 5%;
+   margin-bottom: 5%;
+}
+.h1{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   padding-bottom: 30px;
+   width: 30%;
+   
+  
+}
+
+.p{
+    font-size: 16px;
+    text-align: center;
+    color: #444;
+    font-weight: 400;
+    line-height: normal;
+    /* margin-left: 150px;
+    margin-right: 150px; */
+    padding:0 5%;
+
+}
+
+/* .h1::after{
+    content: "About";
+    position: absolute;
+    opacity: 5%;
+    font-size: 80px;
+    left: 40%;
+    top: 0rem;    
+}    */
+     
+ .list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    margin-top: 30px;
+ }  
+ .goals{
+    padding-top: 80px;
+    
+ }  
+
+ .h2{
+    text-align: center;
+    color: #CA256D;
+    font-size: 26px;
+    padding-bottom: 15px;
+ }
+
+ .icon1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 35px;
+    
+ }
+
+ .p1{
+    text-align: center;
+    font-size: 16px;
+    color: #444;
+    font-weight: 400;
+    max-width: 300px;
+    
+ }
+
+.vision{
+    padding-top: 80px;
+}
+
+
+
+ .h3{
+    text-align: center;
+    color: #CA256D;
+    font-size: 26px;
+    padding-bottom: 15px;
+ }
+
+ .icon2{
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 35px;
+    
+
+ }
+
+ .p2{
+    text-align: center;
+    font-size: 16px;
+    color: #444;
+    font-weight: 400;
+    max-width: 300px;
+ }
+
+.test{
+    position: relative;
+}
+ .hand{
+    border-radius: 140px 150px 0 0;
+    background-color:#D9D9D9;
+   
+    
+ }
+ 
+ .handimge{
+    padding-top: 20px;
+    transition: .5s;
+   
+
+ }
+
+ .handimge:hover{
+    scale: 1.1;
+    transform: translate(-25px, -40px);
+ }
+
+ .texty{
+   max-width: 90%;
+   margin: auto;
+ }
+
+
+ @media screen and (max-width: 900px){
+   .list{
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .h1{
+      width: 250px;
+   }
+   .goals{
+      padding-top: 0;
+      padding-bottom: 40px;
+   }
+
+   .vision{
+      padding-top: 30px;
+   }
+ }
+
+ 
+
+ @media screen and (max-width:500px) {
+     
+
+   .p{
+      font-size: 14px;
+   }
+
+   .p1{
+      font-size: 14px;
+   }
+
+   .p2{
+      font-size: 14px;
+   }
+   
+   
+ }
+
+

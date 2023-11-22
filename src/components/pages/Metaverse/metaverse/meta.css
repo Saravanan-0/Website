@@ -1,0 +1,164 @@
+.box1{
+    display: flex;
+    margin-top: 85px;
+    background-color: #f5f5f5;
+    
+}
+.user{
+    height: 0vh;
+    padding-bottom: 65px;
+    background-color: #f5f5f5;
+}
+
+.devimg3{
+    width: 560px;
+    position: absolute;
+}
+
+
+.box-text3{
+    max-width: 600px;
+    text-align: center;
+    margin:70px 0px 70px 32%;
+    margin-top: 70px;
+    padding-bottom: 70px;
+    position: absolute;
+    /* margin-left: 32%; */
+    
+    background-color: rgb(255, 255, 255);
+    border: 1px 0 1px 1px solid gray;
+    padding: 40px 80px;
+    box-shadow: 2px 0.5px 6px 0.5px rgb(190, 188, 188);
+}
+
+.head-main31 {
+    height: 87px;
+    
+    position: relative;
+    padding-bottom: 10px;
+    
+    
+  }
+  
+.head431 {
+    color: #f0f0f0;
+    font-size: 75px;
+    font-weight: 700;
+    left: 90px;
+    letter-spacing: 0;
+    line-height: 60px;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+    /* padding-bottom: 900px; */
+    
+  }
+  
+.head432 {
+    color: #143274;
+    
+    font-size: 45px;
+    font-weight: 700;
+    left: 170px;
+    letter-spacing: 0;
+    line-height: 60px;
+    position: absolute;
+    top: 10px;
+    white-space: nowrap;
+  }
+
+  .head-main31::after{
+    content: "";
+    position: absolute;
+    bottom: 20px;
+    height: 3px;
+    width: 75%;
+    left: 12%;
+    background-color: #CA256D;
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+    transform: scaleX(0);
+    transform-origin:center;
+}
+
+.head-main31:hover::after{
+    transform: scaleX(1);
+}
+
+.create{
+    font-size: 20px;
+    max-width: 900px;
+    
+  }
+  @media screen and (max-width:1000px) {
+    .head432{
+      font-size: 38px;
+    font-weight: 700;
+    left: 140px;
+
+    }
+    .head431{
+      font-size: 54px;
+    font-weight: 700;
+    }
+  }
+
+  @media screen and (max-width:900px){
+    .box-text3{
+       
+        position: absolute;
+        margin: 0px;
+        max-width: 500px;       
+    }
+    .devimg3{
+        width: 470px;
+    }
+ 
+    .headd3{
+        width: 400px;
+    }
+   
+}
+ 
+@media screen and (max-width:600px) {
+ 
+    .box-text3{
+       
+        position: absolute;
+        margin: 0px;
+        max-width: 500px;
+        padding: 40px 35px;
+   }
+ 
+.devimg3{
+    display: none;
+}
+.head-main31{
+    margin-left: -40px;
+   }
+   .head432{
+     font-size: 28px;
+   font-weight: 700;
+   
+   }
+   .head431{
+     font-size: 44px;
+   font-weight: 700;
+   }
+}
+@media screen and (max-width:500px) {
+    .head-main31{
+      margin-left: -40px;
+     }
+     .head432{
+       font-size: 35px;
+     font-weight: 700;
+     left: 140px;
+     
+     }
+     .head431{
+       font-size: 50px;
+     font-weight: 700;
+     }
+    
+  }
