@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 // import Images from '../images/Vector.png'
 import './Work.css';
-import img1 from './Images/vector.png'
+import img1 from './Images/Vector.png'
 import img2 from '../../Cloud/Work/Images/1.svg';
 import img3 from '../../Cloud/Work/Images/2.svg';
 import img4 from './Images/3.png';
