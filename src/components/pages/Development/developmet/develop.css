@@ -6,7 +6,7 @@
 }
 .development{
     height: 65vh;
-    padding-bottom: 50vh;
+    padding-bottom: 10vh;
     background-color: #f5f5f5;
 }
 
@@ -17,7 +17,7 @@
 
 
 .box-text11{
-    max-width: 47%;
+    max-width: 45%;
     text-align: center;
     margin:8% 0 8% 32%;
    
@@ -74,7 +74,7 @@
     bottom: 50px;
     height: 3px;
     width: 65%;
-    left:2%;
+    left:4%;
     background-color: #CA256D;
     transition: 0.5s;
     transition-timing-function: ease-in-out;

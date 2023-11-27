@@ -2,10 +2,6 @@ import React from 'react';
 // import { useState } from 'react';
 import './connav.css';
 
-
-
-
-
 const Navbar = () => {
   return (
   
