@@ -19,7 +19,7 @@ import MasonService from './components/pages/Mason/Home'
 import Develop from './components/pages/Mason/Mason/mason'
 import Contact from './components/pages/Contact/contact'
 import UserExp from './components/pages/User/Home'
-import About11 from './components/pages/About/home'
+import About1 from './components/pages/About/home'
 
 
 
@@ -47,12 +47,13 @@ const App = () => {
              <Route path='/home' element={<Homee/>}/>
              <Route path='' element={<Homee/>}/>
             <Route path='/careers' element={<Careers/>}/>
-            <Route path='/about11' element={<About11/>}/>
+            <Route path='/about1' element={<About1/>}/>
 
       </Routes>
+      <Footer/>
       </Router>
      
-     <Footer/>
+     
     </div>
     
 

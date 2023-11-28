@@ -1,10 +1,12 @@
 .devnav2 {
     background-color: #CA256D;
     padding: 0px;
-    margin-top: 30px;
-    width: 190%;
-    margin-right: 150px;
-    margin-left: -390px;
+    margin-top: 7.5%;
+    width: 290%;
+    margin-right: 15%;
+    margin-left: -400px;
+ 
+  
     z-index: 1;
   }
   
@@ -21,10 +23,11 @@
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 17px;
+    color: white;
   }
   
-  .dev-item2 a {
-    text-decoration: none;
+  .dev-item2:hover {
+    text-decoration: underline;
     color: #f9f0f5;
   }
   
