@@ -27,7 +27,7 @@
 
 .head-main9 {
     height: 87px;
-    margin-left: 7%;
+    margin-left: 13%;
     position: relative;
     padding-bottom: 2%;
     
@@ -67,7 +67,7 @@
     bottom: 50px;
     height: 3px;
     width: 65%;
-    left: 8%;
+    left: 6%;
     background-color: #CA256D;
     transition: 0.5s;
     transition-timing-function: ease-in-out;
@@ -80,81 +80,120 @@
 }
 
 .create9{
-    font-size: 100%;
-    max-width: 90%;
+    font-size: 1rem;
+    
     
   }
-  @media screen and (max-width:1000px) {
-    .head492{
+  @media screen and (max-width:1600px) {
+    .head492 {
       font-size: 38px;
-    font-weight: 700;
-
+      font-weight: 700;
+   
     }
-    .head491{
+   
+    .head491 {
       font-size: 54px;
-    font-weight: 700;
+      font-weight: 700;
+      left: 4%;
+    }
+   
+    .head-main9{
+      margin-left: 7%;
+    }
+
+    .head-main9::after{
+      left: 11%;
     }
   }
-
-  @media screen and (max-width:900px){
-    .box-text9{
-       
-        position: absolute;
-        margin: 0px;
-        max-width: 500px;       
+   
+   
+  @media screen and (max-width:1000px)  {
+   
+      .head-main9{
+      margin-left: 1%;
     }
-    .devimg9{
-        width: 470px;
-    }
- 
-    .headd9{
-        width: 400px;
+  }
+   
+  @media screen and (max-width:950px) {
+   
+    .head492 {
+      font-size: 34px;
+      font-weight: 700;
+   
     }
    
-}
- 
-@media screen and (max-width:600px) {
- 
-    .box-text9{
-       
-        position: absolute;
-        margin: 0px;
-        max-width: 500px;
-        padding: 40px 35px;
-   }
- 
-.devimg9{
-    display: none;
-}
-.head-main9{
-    margin-left: 50px;
-   }
-   .head492{
-     font-size: 28px;
-   font-weight: 700;
-   
-   }
-   .head491{
-     font-size: 44px;
-   font-weight: 700;
-   }
-}
-@media screen and (max-width:500px) {
-    .head-main9{
-      margin-left: 0px;
-     }
-     .head492{
-       font-size: 24px;
-     font-weight: 700;
-     
-     }
-     .head491{
-       font-size: 40px;
-     font-weight: 700;
-     }
-
-     .development{
-      height: 0;
-     }
-    
+    .head491 {
+      font-size: 50px;
+      font-weight: 700;
     }
+   
+    .box-text9 {
+   
+      position: absolute;
+      margin: 0px;
+      max-width: 500px;
+    }
+   
+    .devimg9 {
+      width: 470px;
+    }
+   
+    .headd44 {
+      width: 400px;
+    }
+   
+  }
+   
+  @media screen and (max-width:600px) {
+   
+    .box-text9 {
+   
+      position: absolute;
+      margin: 0px;
+      max-width: 500px;
+      padding: 40px 35px;
+    }
+   
+    .devimg9 {
+      display: none;
+    }
+   
+    .head-main9 {
+      margin-left: 50px;
+    }
+   
+    .head492 {
+      font-size: 28px;
+      font-weight: 700;
+   
+    }
+   
+    .head491 {
+      font-size: 44px;
+      font-weight: 700;
+    }
+  }
+   
+   
+  @media screen and (max-width:500px) {
+    .head-main9 {
+      margin-left: 6%;
+    }
+   
+    .head492 {
+      font-size: 24px;
+      font-weight: 700;
+   
+    }
+   
+    .head491 {
+      font-size: 35px;
+      font-weight: 700;
+      left: 0%;
+    }
+   
+   .development{
+    height: 0;
+   }
+   
+  }

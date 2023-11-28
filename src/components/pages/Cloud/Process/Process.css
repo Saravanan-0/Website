@@ -112,3 +112,23 @@
   margin-top: -20px;
   transform: translateY(0);
 }
+
+@media screen and (max-width:800px) {
+ 
+  .process-card14{
+    display: flex;
+     flex-direction:column;
+   
+  }
+ 
+  .process114,
+  .process214,
+  .process314,
+  .process414,
+  .process514,
+  .process614 {
+  width: auto !important;
+ 
+}
+ 
+}

@@ -110,3 +110,40 @@
   margin-top: -20px;
   transform: translateY(0);
 }
+
+
+
+@media screen and (max-width:800px) {
+
+  .process-card52 {
+    display: flex;
+    flex-direction: column;
+
+  }
+ 
+
+  
+
+
+  .process152,
+  .process252,
+  .process352,
+  .process452,
+  .process552,
+  .process652{
+    width: auto !important;
+    
+
+  }
+
+}
+
+@media screen and (max-width:500px) {
+
+  .process-heading52{
+    padding-bottom: 10%;
+    padding-top: 10%;
+  }
+
+  
+}

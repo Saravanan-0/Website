@@ -121,3 +121,40 @@
   margin-top: -20px;
   transform: translateY(0);
 }
+
+
+
+@media screen and (max-width:800px) {
+
+  .process-card3 {
+    display: flex;
+    flex-direction: column;
+
+  }
+ 
+
+  
+
+
+  .process13,
+  .process23,
+  .process33,
+  .process43,
+  .process53,
+  .process63{
+    width: auto !important;
+    
+
+  }
+
+}
+
+@media screen and (max-width:500px) {
+
+  .process-heading3{
+    padding-bottom: 10%;
+    padding-top: 10%;
+  }
+
+  
+}

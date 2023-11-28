@@ -91,79 +91,123 @@
     font-weight: 400;
     color: #000;
 }
-@media screen and (max-width:1000px) {
-    .head472{
-      font-size: 38px;
+
+@media screen and (max-width:1600px) {
+  .head472 {
+    font-size: 38px;
     font-weight: 700;
-
-    }
-    .head471{
-      font-size: 54px;
-    font-weight: 700;
-    }
-  }
-
-
-@media screen and (max-width:900px){
-    .box-text7{
-       
-        position: absolute;
-        margin: 0px;
-        max-width: 500px;       
-    }
-    .devimg7{
-        width: 470px;
-    }
  
-    .headd7{
-        width: 200px;
-    }
-   
+  }
+ 
+  .head471 {
+    font-size: 54px;
+    font-weight: 700;
+    left: 9.5%;
+  }
+ 
+  .head-main{
+    margin-left: 9%;
+  }
+  .head-main7::after{
+    width: 20%;
+    left: 13%;
+  }
+}
+ 
+ 
+@media screen and (max-width:1000px)  {
+ 
+    .head-main7{
+    margin-left: 1%;
+  }
+}
+@media screen and (max-width:950px) {
+ 
+  .head472 {
+    font-size: 34px;
+    font-weight: 700;
+ 
+  }
+ 
+  .head471 {
+    font-size: 50px;
+    font-weight: 700;
+    
+  }
+ 
+  .box-text7 {
+ 
+    position: absolute;
+    margin: 0px;
+    max-width: 500px;
+  }
+ 
+  .devimg7 {
+    width: 470px;
+  }
+ 
+  .headd44 {
+    width: 400px;
+  }
+ 
 }
  
 @media screen and (max-width:600px) {
  
-    .box-text7{
-       
-        position: absolute;
-        margin: 0px;
-        max-width: 500px;
-        padding: 40px 35px;
-   }
+  .box-text7 {
  
-.devimg7{
-    display: none;
-}
-.head-main7{
-    margin-left: 50px;
-   }
-   .head472{
-     font-size: 28px;
-   font-weight: 700;
-   
-   }
-   .head471{
-     font-size: 44px;
-   font-weight: 700;
-   }
-}
-@media screen and (max-width:500px) {
-    .head-main7{
-      margin-left: -50px;
-     }
-     .head472{
-       font-size: 30px;
-     font-weight: 700;
-     
-     }
-     .head471{
-       font-size: 50px;
-     font-weight: 700;
-     }
-
-     .cloud{
-      height: 50vh;
-     }
-    
-
+    position: absolute;
+    margin: 0px;
+    max-width: 500px;
+    padding: 40px 35px;
   }
+ 
+  .devimg7 {
+    display: none;
+  }
+ 
+  .head-main7 {
+    margin-left: 50px;
+  }
+ 
+  .head472 {
+    font-size: 28px;
+    font-weight: 700;
+ 
+  }
+ 
+  .head471 {
+    font-size: 44px;
+    font-weight: 700;
+  }
+}
+ 
+ 
+@media screen and (max-width:500px) {
+  .head-main7 {
+    margin-left: 6%;
+    width:50%;
+  }
+ 
+  .head-main7::after{
+    width: 50%;
+    left: 11%;
+  }
+  .head472 {
+    font-size: 24px;
+    font-weight: 700;
+    
+ 
+  }
+ 
+  .head471 {
+    font-size: 35px;
+    font-weight: 700;
+    left: 8%;
+  }
+ 
+ .cloud{
+  height: 30vh;
+ }
+ 
+}

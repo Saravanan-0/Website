@@ -118,3 +118,36 @@
   margin-top: -20px;
   transform: translateY(0);
 }
+
+
+@media screen and (max-width:800px) {
+ 
+  .process-card25{
+    display: flex;
+     flex-direction:column;
+   
+  }
+ 
+  .process125,
+  .process225,
+  .process325,
+  .process425,
+  .process525,
+  .process625,
+  .process725,
+  .process825 {
+  width: auto !important;
+ 
+}
+ 
+}
+
+
+@media screen and (max-width:500px) {
+
+  .process-heading25{
+    padding-bottom: 10%;
+    padding-top: 10%;
+  }
+  
+}

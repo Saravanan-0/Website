@@ -8,7 +8,7 @@ import head1 from "../metaverse/assets/meta.svg"
 let User = ()=>{
     return(
         
-        <div id="metaverse" className="user">
+        <div id="metaverse" className="user75">
             <div className="box1">
                 <img className="devimg3" src={serv1}/>
                 <div className="box-text3">

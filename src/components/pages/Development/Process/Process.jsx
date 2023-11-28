@@ -39,7 +39,7 @@ const Process = () => {
         <div className='process31'>
         <div className='process-head1'><img className='Iconhover' src= {img3} />
             </div>
-            <h3 className=''>Development</h3>
+            <h3 className='deck'>Development</h3>
             <div className='process-content1'>
             Create the visual content using design tools such as Adobe Illustrator or Photoshop. This involves refining the design
                 ideas and exploring different design possibilities.

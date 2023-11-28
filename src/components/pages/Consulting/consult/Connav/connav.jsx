@@ -12,7 +12,7 @@ const Navbar = () => {
         
         <div className="dev-item2" onClick={() => {
                             navigate('/consulting')
-                        }}>Consulting</div>
+                        }}>Consulting Service</div>
          <div className="dev-item2" onClick={() => {
                             navigate('/user-experience-enhancement')
                         }}>User Experience Enhancement</div>

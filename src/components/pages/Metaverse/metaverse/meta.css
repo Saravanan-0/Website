@@ -4,7 +4,7 @@
     background-color: #f5f5f5;
     
 }
-.user{
+.user75{
     height: 65vh;
     padding-bottom: 10vh;
     background-color: #f5f5f5;
@@ -33,7 +33,7 @@
 
 .head-main31 {
     height: 87px;
-    margin-left: 20%;
+    margin-left: 24%;
     position: relative;
     padding-bottom: 2%;
     
@@ -85,80 +85,127 @@
     transform: scaleX(1);
 }
 
-.create{
-    font-size: 100%;
-    max-width: 90%;
+.create3{
+    font-size: 1.25rem;
+    
     
   }
-  @media screen and (max-width:1000px) {
-    .head432{
+  @media screen and (max-width:1600px) {
+    .head432 {
       font-size: 38px;
-    font-weight: 700;
-    left: 140px;
-
+      font-weight: 700;
+   
     }
-    .head431{
+   
+    .head431 {
       font-size: 54px;
-    font-weight: 700;
+      font-weight: 700;
+      left:4%;
+    }
+   
+    .head-main2{
+      margin-left: 2%;
+    }
+
+    .head-main31::after{
+      left:0%;
+    }
+
+    .create3{
+      font-size: 1rem;
     }
   }
-
-  @media screen and (max-width:900px){
-    .box-text3{
-       
-        position: absolute;
-        margin: 0px;
-        max-width: 500px;       
+   
+   
+  @media screen and (max-width:1000px)  {
+   
+      .head-main31{
+      margin-left: 1%;
     }
-    .devimg3{
-        width: 470px;
-    }
- 
-    .headd3{
-        width: 400px;
+  }
+   
+  @media screen and (max-width:950px) {
+   
+    .head432 {
+      font-size: 34px;
+      font-weight: 700;
+   
     }
    
-}
- 
-@media screen and (max-width:600px) {
- 
-    .box-text3{
-       
-        position: absolute;
-        margin: 0px;
-        max-width: 500px;
-        padding: 40px 35px;
-   }
- 
-.devimg3{
-    display: none;
-}
-.head-main31{
-    margin-left: -40px;
-   }
-   .head432{
-     font-size: 28px;
-   font-weight: 700;
+    .head431 {
+      font-size: 50px;
+      font-weight: 700;
+    }
    
-   }
-   .head431{
-     font-size: 44px;
-   font-weight: 700;
-   }
-}
-@media screen and (max-width:500px) {
-    .head-main31{
-      margin-left: -40px;
-     }
-     .head432{
-       font-size: 35px;
-     font-weight: 700;
-     left: 140px;
-     
-     }
-     .head431{
-       font-size: 50px;
-     font-weight: 700;
-     }
+    .box-text3 {
+   
+      position: absolute;
+      margin: 0px;
+      max-width: 500px;
+    }
+   
+    .devimg3 {
+      width: 470px;
+    }
+   
+    .headd44 {
+      width: 400px;
+    }
+   
+  }
+   
+  @media screen and (max-width:600px) {
+   
+    .box-text3 {
+   
+      position: absolute;
+      margin: 0px;
+      max-width: 500px;
+      padding: 40px 35px;
+    }
+   
+    .devimg3 {
+      display: none;
+    }
+   
+    .head-main31 {
+      margin-left: 50px;
+    }
+   
+    .head432 {
+      font-size: 28px;
+      font-weight: 700;
+   
+    }
+   
+    .head431 {
+      font-size: 44px;
+      font-weight: 700;
+    }
+  }
+   
+   
+  @media screen and (max-width:500px) {
+    .head-main31 {
+      margin-left: 20%;
+    }
+   
+    .head432 {
+      font-size: 24px;
+      font-weight: 700;
+   
+    }
+   
+    .head431 {
+      font-size: 35px;
+      font-weight: 700;
+      left: 1%;
+    }
+   
+   .user75 {
+    height:30vh;
     
+   
+   }
+   
   }

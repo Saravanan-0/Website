@@ -1,23 +1,23 @@
 /* consult.css */
-
+ 
 .box2 {
   display: flex;
   margin-top: 85px;
   position: relative;
   /* Add position relative to .box2 */
 }
-
+ 
 .development {
   height: 65vh;
   padding-bottom: 50vh;
     background-color: #f5f5f5;
 }
-
+ 
 .devimg4 {
   width: 45%;
   position: absolute;
 }
-
+ 
 .box-text4 {
   max-width: 47%;
   text-align: center;
@@ -30,33 +30,33 @@
   /* z-index: 1; */
   /* Ensure the text is on top of the image */
 }
-
+ 
 .head-main {
   height: 87px;
-  margin-left: 14%;
+  margin-left: 16%;
   position: relative;
   padding-bottom: 2%;
-
-
+ 
+ 
 }
-
+ 
 .head441 {
   color: #f0f0f0;
   font-size: 3.85rem;
   font-weight: 700;
-  left: 1%;
+  left: 3%;
   letter-spacing: 0;
   line-height: 6%;
   position: absolute;
   top: 1%;
   white-space: nowrap;
   /* padding-bottom: 900px; */
-
+ 
 }
-
+ 
 .head442 {
   color: #143274;
-
+ 
   font-size: 2.85rem;
   font-weight: 700;
   left: 13%;
@@ -66,111 +66,136 @@
   top: 10%;
   white-space: nowrap;
 }
-
+ 
 .head-main::after {
   content: "";
   position: absolute;
   bottom: 50px;
   height: 3px;
-  width: 65%;
-  left: 10%;
+  width: 55%;
+  left:12%;
   background-color: #CA256D;
   transition: 0.5s;
   transition-timing-function: ease-in-out;
   transform: scaleX(0);
   transform-origin: center;
 }
-
+ 
 .head-main:hover::after {
   transform: scaleX(1);
 }
-
+ 
 .create4 {
   font-size: 100%;
   max-width: 100%;
-  
+ 
 }
-
-@media screen and (max-width:1000px) {
+ 
+@media screen and (max-width:1600px) {
   .head442 {
     font-size: 38px;
     font-weight: 700;
-
+ 
   }
-
+ 
   .head441 {
     font-size: 54px;
     font-weight: 700;
   }
+ 
+  .head-main{
+    margin-left: 9%;
+  }
 }
-
-@media screen and (max-width:900px) {
+ 
+ 
+@media screen and (max-width:1000px)  {
+ 
+    .head-main{
+    margin-left: 1%;
+  }
+}
+ 
+@media screen and (max-width:950px) {
+ 
+  .head442 {
+    font-size: 34px;
+    font-weight: 700;
+ 
+  }
+ 
+  .head441 {
+    font-size: 50px;
+    font-weight: 700;
+  }
+ 
   .box-text4 {
-
+ 
     position: absolute;
     margin: 0px;
     max-width: 500px;
   }
-
+ 
   .devimg4 {
     width: 470px;
   }
-
+ 
   .headd44 {
     width: 400px;
   }
-
+ 
 }
-
+ 
 @media screen and (max-width:600px) {
-
+ 
   .box-text4 {
-
+ 
     position: absolute;
     margin: 0px;
     max-width: 500px;
     padding: 40px 35px;
   }
-
+ 
   .devimg4 {
     display: none;
   }
-
+ 
   .head-main {
     margin-left: 50px;
   }
-
+ 
   .head442 {
     font-size: 28px;
     font-weight: 700;
-
+ 
   }
-
+ 
   .head441 {
     font-size: 44px;
     font-weight: 700;
   }
 }
-
-
+ 
+ 
 @media screen and (max-width:500px) {
   .head-main {
-    margin-left: 0px;
+    margin-left: 6%;
   }
-
+ 
   .head442 {
     font-size: 24px;
     font-weight: 700;
-
+ 
   }
-
+ 
   .head441 {
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 700;
+    left: -6%;
   }
-
+ 
  .development{
   height: 0;
  }
-
+ 
 }

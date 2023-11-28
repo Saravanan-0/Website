@@ -111,5 +111,11 @@
   top:6%;
 }
 
-
+@media screen and (max-width:500px){
+  .work344{
+    padding-top: 70%;
+   
+  }
+ 
+}
 

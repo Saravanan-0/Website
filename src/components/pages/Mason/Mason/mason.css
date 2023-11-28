@@ -26,7 +26,7 @@
 
 .head-main75 {
     height: 87px;
-    margin-left: 14%;
+    margin-left: 16%;
     position: relative;
     padding-bottom: 2%;
     
@@ -66,7 +66,7 @@
     bottom: 50px;
     height: 3px;
     width: 65%;
-    left: 7%;
+    left: 4%;
     background-color: #CA256D;
     transition: 0.5s;
     transition-timing-function: ease-in-out;
@@ -80,82 +80,130 @@
 
 
 .create75{
-    font-size: 100%;
-    max-width: 90%;
+    font-size: 1.25rem;
+   
     
   }
-  @media screen and (max-width:1000px) {
+  @media screen and (max-width:1600px) {
     .head476{
       font-size: 38px;
-    font-weight: 700;
-
+      font-weight: 700;
+   
     }
-    .head475{
+   
+    .head475 {
       font-size: 54px;
-    font-weight: 700;
+      font-weight: 700;
+      left:4%;
+    }
+   
+    .head-main75{
+      margin-left: 9%;
+    }
+
+    .head-main75::after{
+      left:8%;
+    }
+
+    .create75{
+      font-size: 1rem;
     }
   }
 
-  @media screen and (max-width:900px){
-    .box-text75{
-       
-        position: absolute;
-        margin: 0px;
-        max-width: 500px;       
-    }
-    .devimg75{
-        width: 470px;
-    }
- 
-    .headd75{
-        width: 400px;
-    }
+  @media screen and (max-width:1000px)  {
    
+    .head-main75{
+    margin-left: 1%;
+  }
+}
+ 
+@media screen and (max-width:950px) {
+ 
+  .head476 {
+    font-size: 34px;
+    font-weight: 700;
+ 
+  }
+ 
+  .head475 {
+    font-size: 50px;
+    font-weight: 700;
+  }
+ 
+  .box-text75 {
+ 
+    position: absolute;
+    margin: 0px;
+    max-width: 500px;
+  }
+ 
+  .devimg75 {
+    width: 470px;
+  }
+ 
+  .headd44 {
+    width: 400px;
+  }
+ 
 }
  
 @media screen and (max-width:600px) {
  
-    .box-text75{
-       
-        position: absolute;
-        margin: 0px;
-        max-width: 500px;
-        padding: 40px 35px;
-   }
+  .box-text75 {
  
-.devimg75{
-    display: none;
-}
-.head-main75{
-    margin-left: 50px;
-   }
-   .head476{
-     font-size: 28px;
-   font-weight: 700;
-   
-   }
-   .head475{
-     font-size: 44px;
-   font-weight: 700;
-   }
-}
-@media screen and (max-width:500px) {
-    .head-main75{
-      margin-left: 0px;
-     }
-     .head476{
-       font-size: 24px;
-     font-weight: 700;
-     
-     }
-     .head475{
-       font-size: 40px;
-     font-weight: 700;
-     }
-
-     .development{
-      height:0;
-     }
-    
+    position: absolute;
+    margin: 0px;
+    max-width: 500px;
+    padding: 40px 35px;
   }
+ 
+  .devimg75 {
+    display: none;
+  }
+ 
+  .head-main75 {
+    margin-left: 50px;
+  }
+ 
+  .head476 {
+    font-size: 28px;
+    font-weight: 700;
+ 
+  }
+ 
+  .head475 {
+    font-size: 44px;
+    font-weight: 700;
+  }
+}
+ 
+ 
+@media screen and (max-width:500px) {
+  .head-main75 {
+    margin-left: 10%;
+  }
+
+  .head-main75::after{
+    left:11%;
+  }
+ 
+  .head476 {
+    font-size: 24px;
+    font-weight: 700;
+ 
+  }
+ 
+  .head475 {
+    font-size: 35px;
+    font-weight: 700;
+    left: 1%;
+  }
+
+ 
+ .development{
+  height: 0;
+ }
+ 
+}
+   
     

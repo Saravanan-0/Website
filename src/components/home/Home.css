@@ -1,5 +1,5 @@
 .Home1{
-  margin-top: 6.5%;
+  margin-top: 4.5%;
     width: 100%;
     max-height: 100vh;
     background-image: url("./assets/1.png");
@@ -87,6 +87,13 @@
   justify-content: space-evenly;
  }
  
+
+ @media screen and (max-width:1600px){
+  .Home1{
+    margin-top: 6.5%;
+  }
+  
+ }
  @media screen and (max-width:900px) {
 
   .Home1{

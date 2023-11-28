@@ -1,11 +1,14 @@
 .box5 {
   display: flex;
   margin-top: 85px;
+  background-color: #f5f5f5;
 }
 
 .user {
   height: 65vh;
   padding-bottom: 15vh;
+  background-color: #f5f5f5;
+
 }
 
 .devimg18 {
@@ -28,7 +31,7 @@
 
 .head-main18 {
   height: 87px;
-  margin-left: 4%;
+  margin-left: 8%;
   position: relative;
   padding-bottom: 2%;
 
@@ -68,7 +71,7 @@
   bottom: 50px;
   height: 3px;
   width: 65%;
-  left: 11%;
+  left: 13%;
   background-color: #CA256D;
   transition: 0.5s;
   transition-timing-function: ease-in-out;
@@ -92,81 +95,126 @@
 
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1600px) {
   .head199 {
-    font-size: 27px;
+    font-size: 38px;
     font-weight: 700;
-
+ 
+  }
+ 
+  .head188 {
+    font-size: 50px;
+    font-weight: 700;
+    left:1%;
+  }
+ 
+  .head-main18{
+    margin-left: -5%;
   }
 
-  .head188 {
-    font-size: 37px;
-    font-weight: 700;
+  .head-main18::after{
+    left:20%;
+  }
+
+  .create18{
+    font-size: 1rem;
   }
 }
-
-@media screen and (max-width:900px) {
+ 
+ 
+@media screen and (max-width:1000px)  {
+ 
+    .head-main18{
+    margin-left: 1%;
+  }
+}
+ 
+@media screen and (max-width:950px) {
+ 
+  .head199 {
+    font-size: 34px;
+    font-weight: 700;
+ 
+  }
+ 
+  .head188 {
+    font-size: 50px;
+    font-weight: 700;
+  }
+ 
   .box-text18 {
-
+ 
     position: absolute;
     margin: 0px;
     max-width: 500px;
   }
-
+ 
   .devimg18 {
     width: 470px;
   }
-
-  .headd18 {
+ 
+  .headd44 {
     width: 400px;
   }
-
+ 
 }
-
+ 
 @media screen and (max-width:600px) {
-
+ 
   .box-text18 {
-
+ 
     position: absolute;
     margin: 0px;
     max-width: 500px;
     padding: 40px 35px;
   }
-
+ 
   .devimg18 {
     display: none;
   }
-
+ 
   .head-main18 {
     margin-left: 50px;
   }
-
+ 
   .head199 {
-    font-size: 20px;
+    font-size: 28px;
     font-weight: 700;
-
+ 
   }
-
+ 
   .head188 {
-    font-size: 30px;
+    font-size: 44px;
     font-weight: 700;
   }
 }
-
+ 
+ 
 @media screen and (max-width:500px) {
   .head-main18 {
-    margin-left: 10px;
+    margin-left: 0%;
   }
-
+ 
   .head199 {
     font-size: 20px;
     font-weight: 700;
-
+ 
   }
-
+ 
   .head188 {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
+    left: 0%;
   }
 
+  .head-main18::after{
+    left: 20%;
+  }
+ 
+ .user {
+  height:35vh;
+  
+ 
+ }
+ 
 }

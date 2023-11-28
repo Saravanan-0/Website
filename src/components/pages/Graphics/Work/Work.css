@@ -94,5 +94,11 @@ img11{
   top:6%;
 }
 
-
+@media screen and (max-width:500px){
+  .work62{
+    padding-top: 70%;
+   
+  }
+ 
+}
 
