@@ -2,8 +2,8 @@
    display: block;
  margin-left: auto;
  margin-right: auto;
-   padding-top: 30px;
-   padding-bottom: 30px;
+   padding-top: 5%;
+   padding-bottom: 5%;
    width: 50%;
    
 }
@@ -12,16 +12,18 @@
 
 
 .p0{
-    font-size: 16px;
+    font-size: 1rem;
     text-align: center;
     color: #444;
+    
     font-weight: 400;
     line-height: normal;
-    padding: 0 150px;
+    padding: 0 5%;
+  
 }
 
 .total-cont{
-    padding: 0 130px;
+    padding: 0 13%;
     
 }
 

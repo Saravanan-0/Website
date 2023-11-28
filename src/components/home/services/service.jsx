@@ -13,7 +13,7 @@ let Service = ()=>{
             <div className="service0">
                 <img className="h00" src={besthead}/>
                 <p className="p0">At DigAmenD, we pride ourselves on delivering excellence in design and
-                   development services. With a passionate and dedicated team of experts we strive to
+                   development services.<br/> With a passionate and dedicated team of experts we strive to
                    ensure perfection. Experience the epitome of excellence to elevate your business identity.</p>
             </div>
             <div className="total-cont">
