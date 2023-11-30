@@ -94,5 +94,11 @@
   top:6%;
 }
 
+@media screen and (max-width:500px){
+  .work152{
+    margin-bottom: 10%;
+  }
+ 
+}
 
 

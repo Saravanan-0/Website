@@ -56,6 +56,7 @@ function Navbar() {
                     <li >
                         {/* <Link to="/homeee" spy={true} smooth={true} offset={50} duration={500}>DEVELOPMENT</Link> */}
                         <div className="nrml-nav" onClick={() => {
+                            setShowExp(false)
                             navigate('/home')
                         }}><span style={{ fontWeight: "300", fontSize: 18 }}>HOME</span></div>
                     </li>
@@ -70,17 +71,20 @@ function Navbar() {
                     <li  >
                         {/* <Link to="/homeee" spy={true} smooth={true} offset={50} duration={500}>DEVELOPMENT</Link> */}
                         <div className="nrml-nav" onClick={() => {
+                            setShowExp(false);
                             navigate('/development')
                         }}><span style={{ fontWeight: "300", fontSize: 18 }}>DEVELOPMENT</span></div>
                     </li>
                     <li >
                         { /*<Link to="CLOUD" spy={true} smooth={true} offset={50} duration={500}>CLOUD</Link>*/}
                         <div  className="nrml-nav" onClick={() => {
+                            setShowExp(false);
                             navigate('/cloud')
                         }}><span style={{ fontWeight: "300", fontSize: 18 }}>CLOUD</span></div>
                     </li>
                     <li  >
                     <div className="nrml-nav" onClick={() => {
+                        setShowExp(false);
                             navigate('/metaverse')
                         }}><span style={{ fontWeight: "300", fontSize: 18 }}>METAVERSE</span></div>
                     </li>

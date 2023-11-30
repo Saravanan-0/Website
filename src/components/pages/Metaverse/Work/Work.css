@@ -105,7 +105,12 @@
   position: static;
   top:60px;
 }
-
+@media screen and (max-width:500px){
+  .work13{
+    margin-bottom: 10%;
+  }
+ 
+}
 
 
 

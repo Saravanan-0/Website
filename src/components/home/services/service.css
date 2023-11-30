@@ -84,7 +84,7 @@
 
 .service1:hover .img11{
     
-    filter: drop-shadow(5px 3px 3px black);
+    filter: drop-shadow(5px 3px 3px rgb(150, 144, 144));
 }
 
 
@@ -157,7 +157,7 @@
 
 .service2:hover .img21{
     /* transform: scale(0); */
-    filter: drop-shadow(5px 3px 3px black);
+    filter: drop-shadow(5px 3px 3px rgb(150, 144, 144));
 }
 
 
@@ -217,7 +217,7 @@
 }
 
 .service3:hover .img31{
-    filter: drop-shadow(5px 3px 3px black);
+    filter: drop-shadow(5px 3px 3px rgb(150, 144, 144));
    
 }
 
@@ -271,7 +271,7 @@
 }
 
 .service4:hover .img41{
-    filter: drop-shadow(5px 3px 3px black);
+    filter: drop-shadow(5px 3px 3px rgb(150, 144, 144));
 
 }
 

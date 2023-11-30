@@ -4,10 +4,16 @@ import tweet from "./assests/twitter.svg"
 import facebook from "./assests/Facebook.svg"
 import linkedin from "./assests/Linkedin.svg"
 import insta from "./assests/instagram.svg"
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate, } from "react-router-dom";
+import { scrollToTop } from 'react-scroll-to-top'
 
 function Footer() {
   const navigate = useNavigate();
+  const scrollToTop =  window.scrollTo({
+    top:0,
+    behavior:'smooth',
+  });
+ 
   return (
 
     <div className='footer-box'>
@@ -17,14 +23,21 @@ function Footer() {
         <h3 className='lala'> Company</h3>
     
     <ul className='ul'>
-    <div className="ss" onClick={() => {
-                            navigate('/about1')
-                        }}>About</div>
+      
+     <div className="ss" onClick={() => {
+      window.scrollTo({top: 0, behavior: 'smooth'})
+      
+                            navigate('/about1') 
+     }}>About
+      
+     </div>
         <div className="ss" onClick={() => {
+          window.scrollTo({top: 0, behavior: 'smooth'})
                             navigate('/careers')
                         }}>Careers</div>
 
 <div className="ss" onClick={() => {
+  window.scrollTo({top: 0, behavior: 'smooth'})
                             navigate('/contact')
                         }}>Contact</div>
         
@@ -36,21 +49,27 @@ function Footer() {
     <div className='ser'>
         <h3 className='lala'>Our Services</h3>
         <ul className='ul'>
+          
         <div className="ss" onClick={() => {
+          window.scrollTo({top: 0, behavior: 'smooth'})
                             navigate('/consulting')
                         }}>Consulting</div>
          <div className="ss" onClick={() => {
+          window.scrollTo({top: 0, behavior: 'smooth'})
                             navigate('/user-experience-enhancement')
                         }}>User Experience Enhancement</div>
 
 <div className="ss" onClick={() => {
+  window.scrollTo({top: 0, behavior: 'smooth'})
                             navigate('/graphic-design')
                         }}>Graphic Design</div>
         <div className="ss" onClick={() => {
+          window.scrollTo({top: 0, behavior: 'smooth'})
                             navigate('/creative-service')
                         }}>Creative Service</div>
 
 <div className="ss" onClick={() => {
+  window.scrollTo({top: 0, behavior: 'smooth'})
                             navigate('/masonservice')
                         }}>Mason Service</div>
 
@@ -90,16 +109,16 @@ function Footer() {
 <div className='final-div'>
 <p className='last-line'>Copyright @ 2023 DIGAMEND Technology Solutions </p>
 <div className='linkicons'>
-<a href="https://www.linkedin.com/company/digamend-technology-solutions">
+<a href="https://www.linkedin.com/company/digamend-technology-solutions" target='blank'>
         <img  src={linkedin} className='icon-color1'/>
       </a>
-      <a href="https://www.facebook.com/people/Digamend-S/pfbid0tJgcXDSnYXvLRzmX8xbvDAR5cuimPmmRLG9vaoTRfFcRYCDWvCEsVEv6WptW52Hal/">
+      <a href="https://www.facebook.com/people/Digamend-S/pfbid0tJgcXDSnYXvLRzmX8xbvDAR5cuimPmmRLG9vaoTRfFcRYCDWvCEsVEv6WptW52Hal/"target='blank'>
         <img  src={facebook}className='icon-color2' />
       </a>
-      <a href="https://twitter.com/DigAmenD">
+      <a href="https://twitter.com/DigAmenD" target='blank'>
         <img  src={tweet} className='icon-color3'/>
       </a>
-      <a href="https://www.instagram.com/digamend/">
+      <a href="https://www.instagram.com/digamend/" target='blank'>
       <img  src={insta} className='icon-color4'/>
 
       </a>

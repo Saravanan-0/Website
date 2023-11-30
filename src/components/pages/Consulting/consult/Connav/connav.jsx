@@ -5,15 +5,18 @@ import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const navigate = useNavigate();
+  
   return (
   
        <nav id= 'experience' className="devnav2">
       <ul className="dev-list2">
         
         <div className="dev-item2" onClick={() => {
+         
                             navigate('/consulting')
                         }}>Consulting Service</div>
          <div className="dev-item2" onClick={() => {
+          
                             navigate('/user-experience-enhancement')
                         }}>User Experience Enhancement</div>
 
